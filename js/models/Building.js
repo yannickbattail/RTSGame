@@ -1,14 +1,13 @@
-var Building = /** @class */ (function () {
-    function Building() {
+class Building {
+    constructor() {
         this.color = 'blue';
         this.position = new Coordinate(0, 0);
     }
-    Building.prototype.getColor = function () {
+    getColor() {
         return this.color;
-    };
-    Building.prototype.getPosition = function () {
+    }
+    getPosition() {
         return this.position;
-    };
-    return Building;
-}());
+    }
+}
 //# sourceMappingURL=Building.js.map

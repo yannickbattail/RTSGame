@@ -1,14 +1,13 @@
-var Unit = /** @class */ (function () {
-    function Unit() {
+class Unit {
+    constructor() {
         this.color = 'red';
         this.position = new Coordinate(0, 0);
     }
-    Unit.prototype.getColor = function () {
+    getColor() {
         return this.color;
-    };
-    Unit.prototype.getPosition = function () {
+    }
+    getPosition() {
         return this.position;
-    };
-    return Unit;
-}());
+    }
+}
 //# sourceMappingURL=Unit.js.map

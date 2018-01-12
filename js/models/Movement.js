@@ -1,11 +1,11 @@
-var Movement = /** @class */ (function () {
-    function Movement(startPositions, endPositions, startDate, endDate) {
+class Movement {
+    constructor(startPositions, endPositions, startDate, endDate) {
         this.startPositions = startPositions;
         this.endPositions = endPositions;
         this.startTime = startDate;
         this.endTime = endDate;
     }
-    Movement.prototype.getCurrentPositionAt = function (time) {
+    getCurrentPositionAt(time) {
         if (this.startTime > time) {
             throw new RangeError('Movement has not started yet');
         }
@@ -13,10 +13,9 @@ var Movement = /** @class */ (function () {
             throw new RangeError('Movement has already finished');
         }
         return new Coordinate(0, 0);
-    };
-    Movement.prototype.getCurrentPosition = function () {
+    }
+    getCurrentPosition() {
         return this.getCurrentPositionAt(new Date());
-    };
-    return Movement;
-}());
+    }
+}
 //# sourceMappingURL=Movement.js.map

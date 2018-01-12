@@ -1,1 +1,1 @@
-{"version":3,"file":"Coordinate.js","sourceRoot":"","sources":["Coordinate.ts"],"names":[],"mappings":"AACA;IAII,oBAAY,CAAS,EAAE,CAAS;QAHzB,MAAC,GAAW,CAAC,CAAC;QACd,MAAC,GAAW,CAAC,CAAC;QAGjB,IAAI,CAAC,CAAC,GAAG,CAAC,CAAC;QACX,IAAI,CAAC,CAAC,GAAG,CAAC,CAAC;IACf,CAAC;IACL,iBAAC;AAAD,CAAC,AARD,IAQC"}
+{"version":3,"file":"Coordinate.js","sourceRoot":"","sources":["Coordinate.ts"],"names":[],"mappings":"AACA;IAII,YAAY,CAAS,EAAE,CAAS;QAHzB,MAAC,GAAW,CAAC,CAAC;QACd,MAAC,GAAW,CAAC,CAAC;QAGjB,IAAI,CAAC,CAAC,GAAG,CAAC,CAAC;QACX,IAAI,CAAC,CAAC,GAAG,CAAC,CAAC;IACf,CAAC;CACJ"}

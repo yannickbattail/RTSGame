@@ -1,5 +1,5 @@
 
-let map = new Map();
+let map = new GameMap();
 let robot1 = new Robot();
 robot1.getPosition().x = 20;
 robot1.getPosition().y = 30;
